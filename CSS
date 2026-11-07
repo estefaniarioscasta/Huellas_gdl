@@ -1,0 +1,104 @@
+body {
+  background: #A4B9CE;
+  color: #51121A;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Fredoka', sans-serif;
+  color: #51121A;
+}
+
+nav {
+  display: flex;
+  background: #51121A;
+  padding: 10px;
+}
+
+nav a {
+  color: #A4B9CE;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  background: #A4B9CE;
+  color: #51121A;
+}
+
+main {
+  width: 700px;
+  margin: 20px auto;
+}
+
+section {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.portada {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.galeria {
+  display: flex;
+}
+
+.galeria div {
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #51121A;
+  color: #A4B9CE;
+}
+
+th, td {
+  border: 1px solid #51121A;
+  padding: 5px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+mark {
+  background: #51121A;
+  color: #A4B9CE;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #51121A;
+}
+
+button, .boton {
+  background: #51121A;
+  color: #A4B9CE;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button:hover, .boton:hover {
+  background: #A4B9CE;
+  color: #51121A;
+  border: 1px solid #51121A;
+}
+
+footer {
+  text-align: center;
+}
